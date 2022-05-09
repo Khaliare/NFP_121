@@ -1,4 +1,5 @@
 package exodiagramme;
+
  public abstract class Option {
 	
 	protected Access access;
@@ -42,7 +43,7 @@ package exodiagramme;
 		this.valeur = valeur;
 	}
 	
-	public abstract String executer();
+	public abstract void executer(String arg);
 
 	@Override
 	public String toString() {
